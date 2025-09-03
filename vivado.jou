@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec 23 22:09:31 2024
+# Process ID: 3172
+# Current directory: I:/Desktop/Tesr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27500 I:\Desktop\Tesr\Tesr.xpr
+# Log file: I:/Desktop/Tesr/vivado.log
+# Journal file: I:/Desktop/Tesr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project I:/Desktop/Tesr/Tesr.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse I:/Desktop/Tesr/Tesr.srcs/sources_1/new/is_button_pressed.v
+update_compile_order -fileset sources_1

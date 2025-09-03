@@ -1,0 +1,18 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+I:/Desktop/Tesr/Tesr.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sim_1/new/main_tb.v,1734947764,verilog,,,,main_tb,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/Main.v,1734946556,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/accumulate_time.v,,main,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/accumulate_time.v,1734933733,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/audio_output.v,,accumulate_time,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/audio_output.v,1734895652,verilog,,I:/Desktop/final_code/clock_divider1.v,,audio_output,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown.v,1734887800,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown_advanced.v,,countdown,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown_advanced.v,1734947264,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/current_time.v,,countdown_advanced,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/current_time.v,1734887800,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/extraction_mode.v,,current_time,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/extraction_mode.v,1734887800,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/hand.v,,extraction_mode,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/hand.v,1734946624,verilog,,I:/Desktop/final_code/is_button_pressed.v,,hand,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/segment.v,1734932853,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/self_cleaning_module.v,,segment,,,,,,,,
+I:/Desktop/Tesr/Tesr.srcs/sources_1/new/self_cleaning_module.v,1734887800,verilog,,I:/Desktop/Tesr/Tesr.srcs/sim_1/new/main_tb.v,,self_cleaning_module,,,,,,,,
+I:/Desktop/final_code/clock_divider1.v,1734842665,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown.v,,clock_divider,,,,,,,,
+I:/Desktop/final_code/is_button_pressed.v,1734947264,verilog,,I:/Desktop/Tesr/Tesr.srcs/sources_1/new/segment.v,,is_button_pressed,,,,,,,,

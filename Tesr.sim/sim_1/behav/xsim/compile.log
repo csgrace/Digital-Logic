@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/Main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/accumulate_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accumulate_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/audio_output.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module audio_output
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/final_code/clock_divider1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countdown
+INFO: [VRFC 10-2458] undeclared symbol new_clk, assumed default net type wire [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/countdown_advanced.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countdown_advanced
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/current_time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module current_time
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/extraction_mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extraction_mode
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/hand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hand
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/final_code/is_button_pressed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module is_button_pressed
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module segment
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/self_cleaning_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module self_cleaning_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "I:/Desktop/Tesr/Tesr.srcs/sim_1/new/main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_tb

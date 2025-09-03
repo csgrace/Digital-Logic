@@ -1,0 +1,33 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 72c44add0d6442208a60aade7f7f24f7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot main_tb_behav xil_defaultlib.main_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 18 for port initial_seconds [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/self_cleaning_module.v:13]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 18 for port initial_seconds [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/extraction_mode.v:14]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 18 for port initial_seconds [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/extraction_mode.v:26]
+WARNING: [VRFC 10-278] actual bit length 18 differs from formal bit length 17 for port total_sec [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/Main.v:375]
+WARNING: [VRFC 10-278] actual bit length 18 differs from formal bit length 3 for port max_time [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/Main.v:399]
+WARNING: [VRFC 10-278] actual bit length 18 differs from formal bit length 3 for port countup [I:/Desktop/Tesr/Tesr.srcs/sources_1/new/Main.v:404]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/Main.v" Line 1. Module main doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "I:/Desktop/Tesr/Tesr.srcs/sources_1/new/accumulate_time.v" Line 2. Module accumulate_time doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.is_button_pressed
+Compiling module xil_defaultlib.is_button_pressed(period=1000000...
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.countdown
+Compiling module xil_defaultlib.self_cleaning_module
+Compiling module xil_defaultlib.extraction_mode
+Compiling module xil_defaultlib.segment
+Compiling module xil_defaultlib.current_time
+Compiling module xil_defaultlib.audio_output
+Compiling module xil_defaultlib.accumulate_time
+Compiling module xil_defaultlib.countdown_advanced
+Compiling module xil_defaultlib.hand
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.main_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot main_tb_behav

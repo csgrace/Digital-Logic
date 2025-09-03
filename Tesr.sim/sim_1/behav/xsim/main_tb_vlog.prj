@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Tesr.srcs/sources_1/new/Main.v" \
+"../../../../Tesr.srcs/sources_1/new/accumulate_time.v" \
+"../../../../Tesr.srcs/sources_1/new/audio_output.v" \
+"../../../../../final_code/clock_divider1.v" \
+"../../../../Tesr.srcs/sources_1/new/countdown.v" \
+"../../../../Tesr.srcs/sources_1/new/countdown_advanced.v" \
+"../../../../Tesr.srcs/sources_1/new/current_time.v" \
+"../../../../Tesr.srcs/sources_1/new/extraction_mode.v" \
+"../../../../Tesr.srcs/sources_1/new/hand.v" \
+"../../../../../final_code/is_button_pressed.v" \
+"../../../../Tesr.srcs/sources_1/new/segment.v" \
+"../../../../Tesr.srcs/sources_1/new/self_cleaning_module.v" \
+"../../../../Tesr.srcs/sim_1/new/main_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
