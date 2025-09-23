@@ -10,18 +10,31 @@
 
 ## 📂 仓库结构 Repository Structure
 ├── Tesr.srcs/ ← 源文件目录，包含 VHDL 或 Verilog 源码
+
 ├── Tesr.sim/ ← 仿真文件 / 仿真结果
+
 │ └── sim_1/
+
 │ └── behav/ ← behavioral 仿真
+
 │ └── xsim ← Vivado 仿真输出
+
 ├── Tesr.hw ← 硬件描述文件 /项目设置
+
 ├── Tesr.xpr ← Vivado 工程文件
+
 ├── main_tb_behav.wcfg ← 仿真的配置文件
+
 ├── 最终答辩/ ← 项目最终答辩相关材料
+
 ├── Ego1_用户手册_v2.21.pdf ← 用户手册 / 使用说明 文档
+
 ├── projects_introduction_中文.pdf ← 项目介绍（中文）
+
 ├── README.md ← 本说明文件
+
 ├── .gitattributes ← Git 属性文件
+
 └── vivado.log, vivado.jou ← Vivado 编译 /实现 日志文件
 
 
