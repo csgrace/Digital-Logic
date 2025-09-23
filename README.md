@@ -9,38 +9,38 @@
 目的是加深对组合逻辑、时序逻辑、状态机、硬件仿真以及 FPGA 实验流程的理解。
 
 ## 📂 仓库结构 Repository Structure
-├── Tesr.srcs/ ← 源文件目录，包含 VHDL 或 Verilog 源码
+📁 Tesr.srcs/ 源文件目录，包含 VHDL 或 Verilog 源码
 
-├── Tesr.sim/ ← 仿真文件 / 仿真结果
+📁 Tesr.sim/ 仿真文件 / 仿真结果
 
-│ └── sim_1/
+│ 📁 sim_1/
 
-│ └── behav/ ← behavioral 仿真
+│ │ 📁 behav/ behavioral 仿真
 
-│ └── xsim ← Vivado 仿真输出
+│ │ │ 📁 xsim Vivado 仿真输出
 
-├── Tesr.hw ← 硬件描述文件 /项目设置
+📄 Tesr.hw 硬件描述文件 / 项目设置
 
-├── Tesr.xpr ← Vivado 工程文件
+📄 Tesr.xpr Vivado 工程文件
 
-├── main_tb_behav.wcfg ← 仿真的配置文件
+📄 main_tb_behav.wcfg 仿真的配置文件
 
-├── 最终答辩/ ← 项目最终答辩相关材料
+📁 最终答辩/ 项目最终答辩相关材料
 
-├── Ego1_用户手册_v2.21.pdf ← 用户手册 / 使用说明 文档
+📄 Ego1_用户手册_v2.21.pdf 用户手册 / 使用说明文档
 
-├── projects_introduction_中文.pdf ← 项目介绍（中文）
+📄 projects_introduction_中文.pdf 项目介绍（中文）
 
-├── README.md ← 本说明文件
+📄 README.md 本说明文件
 
-├── .gitattributes ← Git 属性文件
+📄 .gitattributes Git 属性文件
 
-└── vivado.log, vivado.jou ← Vivado 编译 /实现 日志文件
+📄 vivado.log, vivado.jou Vivado 编译 / 实现日志文件
 
 
 ## 🔧 功能 Features
 
-以下是项目中实现的一些主要功能 /模块（根据实际项目修改）：
+以下是项目中实现的一些主要功能/模块：
 
 - 组合逻辑电路（加法器、多路选择器、译码器等）  
 - 时序逻辑 / 寄存器与触发器设计  
