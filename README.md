@@ -1,6 +1,11 @@
 # FPGA-based Range Hood Controller
 
-> **CS202 Digital Logic Course Project**
+[![SUSTech](https://img.shields.io/badge/SUSTech-CS207-blue)](https://www.sustech.edu.cn/)
+[![Course](https://img.shields.io/badge/Course-Digital%20Logic-green)]()
+[![FPGA](https://img.shields.io/badge/Platform-EGO1%20Artix--7-orange)]()
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
+
+> **CS207 Digital Logic Course Project**
 >
 > Complete range hood controller implemented on EGO1 FPGA — FSM-driven, 4 main modes, 10+ sub-modules, multi-device I/O.
 
