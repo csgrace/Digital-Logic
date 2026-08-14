@@ -160,26 +160,26 @@ Then run **Synthesis -> Implementation -> Generate Bitstream** in sequence, then
 
 ```
 Digital-Logic/
-  Tesr.xpr                      # Vivado project file
-  Main.v                        # Top-level module (FSM + sub-module interconnection)
-  segment.v                     # 7-segment display driver
-  extraction_mode.v             # Extraction Level 1/2/3 scheduling
-  self_cleaning_module.v        # Self-cleaning countdown
-  accumulate_time.v             # Accumulated runtime tracking
-  audio_output.v                # Buzzer PWM driver
-  hand.v                        # Gesture switch
-  countdown.v                   # General-purpose countdown
-  countdown_advanced.v          # Preset-capable countdown
-  current_time.v                # Current clock
-  is_button_pressed.v           # Button debounce
-  clock_divider1.v              # Clock divider
-  char_fifo/                    # Vivado FIFO IP
-  clk_core/                     # Vivado Clocking Wizard IP
-  Tesr.srcs/                    # Sources / Constraints / Simulation
-  Tesr.sim/                     # Vivado simulation output
-  main_tb_behav.wcfg            # Behavioral simulation waveform config
-  Ego1_手册.pdf                  # Board user manual
-  README.md
+|-- Tesr.xpr                      # Vivado project file
+|-- Main.v                        # Top-level module (FSM + sub-module interconnection)
+|-- segment.v                     # 7-segment display driver
+|-- extraction_mode.v             # Extraction Level 1/2/3 scheduling
+|-- self_cleaning_module.v        # Self-cleaning countdown
+|-- accumulate_time.v             # Accumulated runtime tracking
+|-- audio_output.v                # Buzzer PWM driver
+|-- hand.v                        # Gesture switch
+|-- countdown.v                   # General-purpose countdown
+|-- countdown_advanced.v          # Preset-capable countdown
+|-- current_time.v                # Current clock
+|-- is_button_pressed.v           # Button debounce
+|-- clock_divider1.v              # Clock divider
+|-- char_fifo/                    # Vivado FIFO IP
+|-- clk_core/                     # Vivado Clocking Wizard IP
+|-- Tesr.srcs/                    # Sources / Constraints / Simulation
+|-- Tesr.sim/                     # Vivado simulation output
+|-- main_tb_behav.wcfg            # Behavioral simulation waveform config
+|-- Ego1_手册.pdf                  # Board user manual
+└── README.md
 ```
 
 ---
