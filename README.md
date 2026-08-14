@@ -192,6 +192,3 @@ Digital-Logic/
 - **Cross-clock-domain handling**: Vivado Clocking Wizard and FIFO IP bridge the Bluetooth UART and main system clock domains.
 - **On-board debugging**: Auxiliary observation signals were added to monitor FSM transitions and timer triggers in real time.
 
----
-
-*CS207 @ SUSTech*
