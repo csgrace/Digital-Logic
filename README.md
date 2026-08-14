@@ -90,29 +90,74 @@
 
 整个系统由顶层模块 `Main.v` 作为主控，内嵌一个**有限状态机（FSM）**负责模式切换，并通过例化以下子模块完成具体功能：
 
+```mermaid
+graph TD
+    subgraph 输入
+        BTN["按键输入<br/>btn1–btn5 + 消抖"]
+        SW["手势开关 sw"]
+        BLU["蓝牙输入<br/>rst_n / sw_pin<br/>rxd_pin / lb_sel_pin"]
+    end
+
+    subgraph 核心
+        FSM["Main.v 顶层<br/>有限状态机 FSM"]
+        DISPATCH["功能调度"]
+    end
+
+    subgraph 计时与显示
+        SEG["segment.v<br/>七段数码管显示"]
+        CD["countdown<br/>通用倒计时"]
+        CDA["countdown_advanced<br/>带预置倒计时"]
+        CT["current_time<br/>当前走时"]
+        ACC["accumulate_time<br/>累计工作时长"]
+    end
+
+    subgraph 工作模式
+        EXT["extraction_mode<br/>1/2/3 档调度<br/>飓风 60s 倒计时"]
+        SC["self_cleaning_module<br/>自清洁 3min 倒计时"]
+        HAND["hand.v<br/>手势开关序列检测"]
+    end
+
+    subgraph 输出
+        SEG_OUT["数码管<br/>segments / control"]
+        LIGHT["照明灯<br/>sw_light / light"]
+        BEEPER["audio_output<br/>蜂鸣器 audio_sd / pwm"]
+        LEDS["LED 指示灯<br/>beelight / edit_index_light<br/>setting_query_page_light"]
+        BT_OUT["蓝牙控制输出<br/>bt_pw_on / bt_sw 等"]
+    end
+
+    CLK["clk_core<br/>时钟管理"] --> FSM
+    FB["char_fifo<br/>数据缓冲"] --> BLU
+
+    BTN --> FSM
+    SW --> HAND
+    BLU --> DISPATCH
+    FSM --> DISPATCH
+    HAND --> DISPATCH
+
+    DISPATCH --> SEG
+    DISPATCH --> CD
+    DISPATCH --> CDA
+    DISPATCH --> CT
+    DISPATCH --> ACC
+    DISPATCH --> EXT
+    DISPATCH --> SC
+
+    SEG --> SEG_OUT
+    CD --> SEG
+    CDA --> SEG
+    CT --> SEG
+    EXT --> SEG
+    SC --> SEG
+    ACC --> BEEPER
+    EXT --> LIGHT
+    SC --> LIGHT
+    HAND --> LIGHT
+    BLU --> BT_OUT
+
+    ACC -.->|达阈值| BEEPER
+    SC -.->|自清洁结束| ACC
 ```
-┌──────────────────────────────────────────────────────┐
-│                      Main.v                          │
-│                                                      │
-│   ┌──────────┐   ┌───────────┐   ┌───────────────┐  │
-│   │  FSM      │   │ 按键输入  │   │  蓝牙输入     │  │
-│   │ 状态机    │   │ (消抖)    │   │  (bt_uart)    │  │
-│   └─────┬─────┘   └─────┬─────┘   └───────┬───────┘  │
-│         │               │                │           │
-│   ┌─────▼───────────────────────────────────────┐   │
-│   │              功能调度                        │   │
-│   └──┬─────────┬──────────┬──────────┬─────────┘   │
-│      │         │          │          │              │
-│  ┌───▼──┐ ┌────▼────┐ ┌──▼───┐ ┌───▼────┐         │
-│  │segment│ │extract- │ │self- │ │accumu- │         │
-│  │显示   │ │ion_mode │ │clean │ │late_   │         │
-│  │       │ │         │ │      │ │time    │         │
-│  └───┬──┘ └────┬────┘ └──┬───┘ └───┬────┘         │
-│      │         │          │          │              │
-│      └─────────┴──────────┴──────────┼──→ audio   │
-│                                      │   (蜂鸣器)  │
-└──────────────────────────────────────────────────────┘
-```
+
 
 ### 4.2 主要子模块
 
@@ -230,4 +275,4 @@ Digital-Logic/
 
 ---
 
-**课程**：CS207 数字逻辑 · SUSTech · 2024 Fall
+
