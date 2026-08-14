@@ -1,6 +1,6 @@
 # 抽油烟机控制电路 / FPGA-based Range Hood Controller
 
-> CS207 数字逻辑课程项目 @ ShanghaiTech University  
+> CS207 数字逻辑课程项目 @ SUSTech  
 > 开发板：EGO1（Xilinx Artix‑7） · 工具：Vivado · 语言：Verilog
 
 **项目成员**：温一楠（12310841）· 李晏敏（12311022）· 魏宇晴（12311043）
@@ -230,4 +230,4 @@ Digital-Logic/
 
 ---
 
-**课程**：CS207 数字逻辑 · ShanghaiTech University · 2024 Fall
+**课程**：CS207 数字逻辑 · SUSTech · 2024 Fall
