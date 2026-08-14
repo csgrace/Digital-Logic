@@ -3,7 +3,7 @@
 > CS207 Digital Logic Course Project @ SUSTech  
 > Board: EGO1 (Xilinx Artix‑7) · Tool: Vivado · Language: Verilog
 
-**Team**: Wen Yinan (12310841) · Li Yanmin (12311022) · Wei Yuqing (12311043)
+**Team**: Wen Yinan (12310841) · Wei Yuqing (12311043) · Li Yanmin (12311022)
 
 ---
 
